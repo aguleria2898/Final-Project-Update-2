@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training - Fitness Website</title>
+    <style>
+        body {
+            background-color: #222222;
+            color: #dddddd;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .training-header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .training-programs {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+        .training-program {
+            width: 30%;
+            background-color: #333333;
+            padding: 20px;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .training-program:hover {
+            transform: translateY(-10px);
+        }
+        .training-program-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .training-program-description {
+            margin-bottom: 20px;
+        }
+        .training-program-button {
+            background-color: #24186d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .training-program-button:hover {
+            background-color: #1b184a;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="training-header">
+        <h1>Our Training Programs</h1>
+    </div>
+    <div class="training-programs">
+        <div class="training-program">
+            <h2 class="training-program-title">Strength Training</h2>
+            <p class="training-program-description">Build muscle and increase your strength with our expert-led strength training program.</p>
+            <button class="training-program-button">Learn More</button>
+        </div>
+        <div class="training-program">
+            <h2 class="training-program-title">Cardio Fitness</h2>
+            <p class="training-program-description">Improve your cardiovascular health and endurance with our high-energy cardio fitness program.</p>
+            <button class="training-program-button">Learn More</button>
+        </div>
+        <div class="training-program">
+            <h2 class="training-program-title">Yoga and Flexibility</h2>
+            <p class="training-program-description">Increase your flexibility, balance, and mindfulness with our expert-led yoga program.</p>
+            <button class="training-program-button">Learn More</button>
+       
